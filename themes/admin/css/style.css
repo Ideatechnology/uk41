@@ -1,0 +1,98 @@
+/* CSS Document */
+
+body{
+font-family: 'futura-pt';
+ padding-top: 100px;
+}
+
+
+.content{
+	min-height:500px;
+	
+}
+
+.footer {
+	margin-top:20px;
+padding-top: 19px;
+color: #777;
+border-top: 1px solid #e5e5e5;
+}
+
+.center form {
+        display: table;
+        margin: 0 auto;
+		
+    }
+	
+.subnav {
+width: 100%;
+background-color: #eeeeee;
+background-repeat: repeat-x;
+background-image: -webkit-linear-gradient(top, #e8e8e8 0%, #d8d8d8 100%);
+background-image: -moz-linear-gradient(top, #e8e8e8 0%, #d8d8d8 100%);
+background-image: -o-linear-gradient(top, #e8e8e8 0%, #d8d8d8 100%);
+background-image: -ms-linear-gradient(top, #e8e8e8 0%, #d8d8d8 100%);
+background-image: linear-gradient(top, #e8e8e8 0%, #d8d8d8 100%);
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+border-bottom: 1px solid #c5c5c5;
+border-top: 1px solid #163355;
+-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.08);
+-moz-box-shadow: 0 3px 5px rgba(0,0,0,.08);
+box-shadow: 0 3px 5px rgba(0,0,0,.08);
+position: fixed;
+margin-top: 40px;
+z-index: 5;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+font-size:12px;
+}
+
+
+.subnav h1 {
+font-size: 18px;
+line-height: 16px;
+}
+
+.subnav .nav {
+margin-bottom: 0;
+margin-top: -36px;
+}
+
+.subnav .nav .active a {
+background-color: #ddd;
+border-right-color: #c5c5c5;
+border-left: 0;
+-webkit-box-shadow: inset 0 5px 5px rgba(0,0,0,0.1);
+-moz-box-shadow: inset 0 5px 5px rgba(0,0,0,0.1);
+box-shadow: inset 0 5px 5px rgba(0,0,0,0.1);
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+
+.subnav .nav > li > a:hover, .subnav .nav .active a, .subnav .nav a:hover, .subnav .nav .active a {
+background: transparent;
+color: #333;
+}
+
+.subnav .nav > li > a:hover, .subnav .nav .active a, .subnav .nav a:hover, .subnav .nav .active a {
+background: transparent;
+color: #333;
+}
+
+.subnav .nav > li > a {
+margin: .1px;
+padding-top: 11px;
+padding-bottom: 11px;
+font-size: 13px;
+color: #777;
+border-right: 1px solid #c3c3c3;
+border-left: 1px solid #e8e8e8;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}

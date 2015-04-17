@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'gotham-m';
+	src: url('./gotham-m.eot');
+	src: local('gotham-m'), url('./gotham-m.woff') format('woff'), url('./gotham-m.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_5903">Text with this font applied</p> */
+.fontsforweb_fontid_5903 {
+	font-family: 'gotham-m' !important;
+}
+
+@font-face {
+	font-family: 'futura-pt';
+	src: url('./futurastd-book-webfont.eot');
+	src: local('futurastd-book-webfont'), url('./futurastd-book-webfont.woff') format('woff'), url('./futurastd-book-webfont.ttf') format('truetype');
+}
+
+/* Font downloaded from FontsForWeb.com */
